@@ -1,0 +1,12 @@
+#calcúlese la nota media de un alumno a partir de tres de sus notas
+
+nota1=10
+nota2=5
+nota3=0
+
+media=(nota1+nota2+nota3)/3
+
+#siempre que se quiere imprimir, necesario que sea string!
+media=str(media)
+
+print("La nota media del alumno es: "+ media)
