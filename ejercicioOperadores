@@ -1,0 +1,26 @@
+#seguimos los pasos que nos marca el enunciado
+
+#1 pedir dos números y convertirlos a un int
+
+num1=input("introduce el primer número: ")
+num1=int(num1)
+
+num2=input("introduce el segundo número: ")
+num2=int(num2)
+
+#2 suma de los dos números
+suma=num1+num2
+
+
+#3 diferencia de los dos números
+diferencia=num1-num2
+
+#4 producto de los dos números
+producto=num1*num2
+
+#5 división de enteros
+divisiónEnteros=num1//num2
+
+#6 división tradicional
+division=float(num1/num2)
+
