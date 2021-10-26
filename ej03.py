@@ -1,6 +1,14 @@
 #programa que calcula la nota a partir de las calificaciones
 
-#medimos por teclado todas las respuestas y las cambiamos a varibale int para poder operar con ellas
+#PSEUDOCÓDIGO
+'''este programa pide por parámetro el número de respuestas correctas, incorrectas y en blanco de un examen.
+Para ello, empleamos al función input() que hace que se puedan pedir parámetros por consola.
+Una vez tenemos pedidos todos los números, tendremos que transformarlos en varibales del tipo int, puesto que,
+de serie, al pasar un parámetro por consola, se tomará como una cadena de texto, en lugar de como un número.
+Una vez hecho esto, asiganamos a cada tipo de resspuesta su poderación correspondiente, obteniendo al final una calificación
+que finalmente se imprimirá por pantalla con la ayuda de la fujnción print'''
+
+
 num_correctas=input("Introduzca el número de respuestas correctas: ")
 num_correctas=int(num_correctas)
 

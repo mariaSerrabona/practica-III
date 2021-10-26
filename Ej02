@@ -1,4 +1,10 @@
 #calcúlese la nota media de un alumno a partir de tres de sus notas
+#PSEUDOCÓDIGO
+
+# en ese caso, a partir de tres notas de un determinado alumno, estableceremos al media aritmética de todas ellas
+# Para ello, utilizaremos la fórmula de sumar todas las notas y depués dividirla entre el número total de ellas.
+#finalmente, mostraremos el resultado de la media mediante la función print
+#transformando siempre antes la media calculada a una cadena de texto para poder concatenarla
 
 nota1=10
 nota2=5
